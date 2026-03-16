@@ -39,10 +39,16 @@
                 <version>${mybatis.spring}</version>
             </dependency>
 
+<!--            <dependency>-->
+<!--                <groupId>org.projectlombok</groupId>-->
+<!--                <artifactId>lombok</artifactId>-->
+<!--                <version>${lombok}</version>-->
+<!--            </dependency>-->
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
-                <version>${lombok}</version>
+                <version>1.18.30</version> <!-- 升级到这里或更高 -->
+                <scope>provided</scope>
             </dependency>
 
             <dependency>
